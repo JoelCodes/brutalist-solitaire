@@ -30,8 +30,14 @@ build/Release
 node_modules
 jspm_packages
 
+# Compiled
+dist
+
 # Optional npm cache directory
 .npm
 
 # Optional REPL history
 .node_repl_history
+
+# VS Code nonsense
+.vscode
