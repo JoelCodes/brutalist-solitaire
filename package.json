@@ -1,45 +1,46 @@
 {
-  "name": "brutalist-solitaire",
-  "version": "1.0.0",
-  "description": "Demo of React, Redux, Immutable.js, and TDD",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JoelCodes/brutalist-solitaire.git"
-  },
-  "keywords": [
-    "brutalist",
-    "solitaire",
-    "react",
-    "redux",
-    "immutable"
-  ],
-  "author": "Joel Shinness",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JoelCodes/brutalist-solitaire/issues"
-  },
-  "homepage": "https://github.com/JoelCodes/brutalist-solitaire#readme",
-  "dependencies": {
-    "babel-core": "^6.24.0",
-    "babel-loader": "^6.4.1",
-    "babel-preset-es2015": "^6.24.0",
-    "babel-preset-react": "^6.23.0",
-    "chai": "^3.5.0",
-    "css-loader": "^0.27.3",
-    "mocha": "^3.2.0",
-    "node-sass": "^4.5.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-redux": "^5.0.3",
-    "redux": "^3.6.0",
-    "sass-loader": "^6.0.3",
-    "style-loader": "^0.14.1",
-    "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.4.2"
-  }
+    "name": "brutalist-solitaire",
+    "version": "1.0.0",
+    "description": "Demo of React, Redux, Immutable.js, and TDD",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha-webpack",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JoelCodes/brutalist-solitaire.git"
+    },
+    "keywords": [
+        "brutalist",
+        "solitaire",
+        "react",
+        "redux",
+        "immutable"
+    ],
+    "author": "Joel Shinness",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JoelCodes/brutalist-solitaire/issues"
+    },
+    "homepage": "https://github.com/JoelCodes/brutalist-solitaire#readme",
+    "dependencies": {
+        "babel-core": "^6.24.0",
+        "babel-loader": "^6.4.1",
+        "babel-preset-es2015": "^6.24.0",
+        "babel-preset-react": "^6.23.0",
+        "chai": "^3.5.0",
+        "css-loader": "^0.27.3",
+        "mocha": "^3.2.0",
+        "node-sass": "^4.5.0",
+        "react": "^15.4.2",
+        "react-dom": "^15.4.2",
+        "react-redux": "^5.0.3",
+        "redux": "^3.6.0",
+        "sass-loader": "^6.0.3",
+        "style-loader": "^0.14.1",
+        "webpack": "^2.2.1",
+        "webpack-dev-server": "^2.4.2",
+        "webpack-node-externals": "^1.5.4"
+    }
 }
