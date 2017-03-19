@@ -1,6 +1,16 @@
 require('../styles/home.scss');
 
 import React from 'react';
-import ReactDOM from 'react-dom';
+import {render} from 'react-dom';
+import app from './reducers';
 
-ReactDOM.render(<h1>Hello!</h1>, document.getElementById('react-root'));
+import {createStore} from 'redux';
+import {Provider} from 'react-redux';
+
+const store = createStore(app);
+
+render(
+  <Provider store={store}>
+    <h1>Hello!</h1>
+  </Provider>
+  , document.getElementById('react-root'));
